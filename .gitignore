@@ -1,0 +1,31 @@
+# Python related
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset and model files (if large)
+data/*.csv
+models/*
+
+# DVC (Data Version Control) related files
+.dvc/
+.dvcconfig
+.dvcignore
+
+# System files
+Thumbs.db
+.DS_Store
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Local test reports and logs
+*.log

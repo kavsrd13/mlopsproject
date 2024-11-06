@@ -1,0 +1,30 @@
+# Core data processing and model development
+pandas==1.5.3
+numpy==1.23.5
+scikit-learn==1.4.2
+joblib==1.2.0
+
+# BentoML for model deployment
+bentoml==1.0.14
+starlette==0.19.1
+
+# Streamlit for app development
+streamlit==1.23.1
+
+# Requests for making HTTP calls in the Streamlit app
+requests==2.31.0
+
+# DVC for data version control
+dvc==3.3.1
+
+# MLFlow for experiment tracking
+mlflow==2.4.0
+
+# Utilities and CI/CD-related packages
+pytest==7.4.0        # For unit testing
+pytest-cov==4.1.0    # For test coverage reporting
+flake8==6.1.0        # For code quality checks
+
+# Deployment tools
+gunicorn==20.1.0     # For serving the app in production (optional if using Heroku)
+
