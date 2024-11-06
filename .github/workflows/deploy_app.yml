@@ -3,7 +3,7 @@ name: Deploy Model
 on:
   push:
     branches:
-      - main  # Trigger when changes are pushed to the main branch
+      - master  # Trigger when changes are pushed to the main branch
 
 jobs:
   deploy:
